@@ -6,6 +6,8 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/ToDoList-master-app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/ToDoList-master-app.iml" group="ToDoList-master/app" />
       <module fileurl="file://$PROJECT_DIR$/ToDo_List.iml" filepath="$PROJECT_DIR$/ToDo_List.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/todolist2.iml" filepath="$PROJECT_DIR$/todolist2.iml" group="todolist2" />
+      <module fileurl="file://$PROJECT_DIR$/app/todolist2-app.iml" filepath="$PROJECT_DIR$/app/todolist2-app.iml" group="todolist2/app" />
     </modules>
   </component>
 </project>
