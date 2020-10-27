@@ -4,9 +4,6 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-
-    sd
-
     <EditText
         android:id="@+id/etNewItem"
         android:layout_width="305dp"
