@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Desktop-todolist2.iml" filepath="$PROJECT_DIR$/Desktop-todolist2.iml" group="todolist2" />
-      <module fileurl="file://$PROJECT_DIR$/app/Desktop-todolist2-app.iml" filepath="$PROJECT_DIR$/app/Desktop-todolist2-app.iml" group="todolist2/app" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ToDoList-master.iml" filepath="$PROJECT_DIR$/.idea/modules/ToDoList-master.iml" group="ToDoList-master" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/ToDoList-master-app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/ToDoList-master-app.iml" group="ToDoList-master/app" />
-      <module fileurl="file://$PROJECT_DIR$/ToDo_List.iml" filepath="$PROJECT_DIR$/ToDo_List.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/todolist2.iml" filepath="$PROJECT_DIR$/todolist2.iml" group="todolist2" />
-      <module fileurl="file://$PROJECT_DIR$/app/todolist2-app.iml" filepath="$PROJECT_DIR$/app/todolist2-app.iml" group="todolist2/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ToDoList2-824d4e9e5574e9b59a5a807f7b6dde3ecd0fc741.iml" filepath="$PROJECT_DIR$/.idea/modules/ToDoList2-824d4e9e5574e9b59a5a807f7b6dde3ecd0fc741.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/ToDoList2-824d4e9e5574e9b59a5a807f7b6dde3ecd0fc741.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/ToDoList2-824d4e9e5574e9b59a5a807f7b6dde3ecd0fc741.app.iml" />
     </modules>
   </component>
 </project>

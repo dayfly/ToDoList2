@@ -9,6 +9,9 @@ import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.CheckBox;
@@ -16,6 +19,7 @@ import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -365,6 +369,35 @@ public class MainActivity extends AppCompatActivity {
         SharedPreferences.Editor editor = myPrefs.edit();
         editor.putString("myTodoData", jsonArray.toString());
         editor.apply();
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu)
+    {
+        MenuInflater inflater = getMenuInflater();
+
+        inflater.inflate(R.menu.main_menu, menu);
+
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected (MenuItem item) {
+        Toast toast = Toast.makeText(getApplicationContext(), "", Toast.LENGTH_LONG);
+
+        switch (item.getItemId()) {
+            case R.id.menu1:
+                toast.setText("밝은테마");
+                setTheme(R.style.Theme_AppCompat);
+                break;
+            case R.id.menu2:
+                toast.setText("어두운테마");
+                break;
+        }
+
+        toast.show();
+
+        return super.onOptionsItemSelected(item);
     }
 
 }
