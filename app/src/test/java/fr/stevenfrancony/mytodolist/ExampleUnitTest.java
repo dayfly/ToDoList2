@@ -1,4 +1,4 @@
-package com.example.forrestknight.todo_list;
+package fr.stevenfrancony.mytodolist;
 
 import org.junit.Test;
 
